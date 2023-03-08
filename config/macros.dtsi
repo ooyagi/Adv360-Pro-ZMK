@@ -4,6 +4,12 @@
     #binding-cells = <0>;
     bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp GRAVE>, <&macro_release &kp LCTRL>;
   };
+  macro_jump_imple: macro_jump_imple {
+    compatible = "zmk,behavior-macro";
+    label = "macro_jump_imple";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp F12>, <&macro_release &kp LCTRL>;
+  };
   macro_tabup: macro_tabup {
     compatible = "zmk,behavior-macro";
     label = "macro_tabup";
